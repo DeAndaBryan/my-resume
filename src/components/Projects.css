@@ -1,0 +1,75 @@
+/* Projects.css */
+
+.project-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent element */
+}
+
+.projects {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.projects h2 {
+  margin: 0 0 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.project-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  padding: 1rem;
+  background-color: #ffffff; /* Slightly different background for contrast */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: auto; /* Increased width */
+  min-height: 350px; /* Set a minimum height to make cards uniform */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space out content evenly */
+  align-items: center;
+  margin: 10px; /* Add margin for spacing */
+  text-align: center; /* Center the text */
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.project-card p {
+  margin: 0.5rem 0 0;
+  color: #666;
+}
+
+.project-card img {
+  width: auto;
+  height: 200px; /* Make image fill card width */
+  object-fit: cover; /* Keep image aspect ratio */
+  border-radius: 4px;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .project-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 100%; /* Make card full width on small screens */
+    margin: 10px 0;
+  }
+}

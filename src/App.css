@@ -1,0 +1,55 @@
+/* Global styles for larger screens */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  /* Adjust section padding */
+  .about,
+  .projects {
+    padding: 2rem 1rem; /* Make the padding smaller */
+  }
+}
+
+/* Global styles in App.css or specific in Projects.css */
+button {
+  background-color: #3498db; /* Default button background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Animation */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darken on hover */
+}

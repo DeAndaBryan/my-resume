@@ -1,0 +1,48 @@
+/* About.css */
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.about {
+  display: flex; /* Use flexbox for layout */
+  padding: 2rem;
+  background-color: #e3e3e3;
+}
+
+.about-image {
+  width: 300px; /* Adjust image size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add rounded corners to the image */
+  border: 1px solid #404040; /* Add border around the image */
+  margin-right: 2rem; /* Space between the image and text */
+}
+
+.about-content {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Stack content vertically */
+  max-width: 60%; /* Set max width for content */
+}
+
+.about-info {
+  margin-bottom: 1rem; /* Space below the About Me text */
+}
+
+.about-education {
+  text-align: left; /* Align text to the left */
+}
+
+.about-education h3 {
+  font-size: 1.5rem; /* Size for subsection headings */
+  margin-bottom: 0.5rem; /* Space below the headings */
+}
+
+.about-education p {
+  font-size: 1.1rem; /* Size for paragraph text */
+  margin-bottom: 0.5rem; /* Space below paragraphs */
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+}
