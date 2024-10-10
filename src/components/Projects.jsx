@@ -8,19 +8,19 @@ const projectData = [
     id: 1,
     title: "AI Ticketing System",
     description: "A Vue-based Point of Sale system.",
-    image: "../assets/ticketing-preview.png",
+    image: "/images/ticketing-preview.png",
   },
   {
     id: 2,
     title: "POS System",
     description: "A personal portfolio.",
-    image: "../assets/pos-cart.png",
+    image: "/images/pos-cart.png",
   },
   {
     id: 3,
     title: "Workout Tracker App",
     description: "An e-commerce platform.",
-    image: "../assets/workout-preview1.png",
+    image: "/images/workout-preview1.png",
   },
 ];
 
