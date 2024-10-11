@@ -6,7 +6,9 @@ import ProjectDetails from "./components/ProjectDetails"; // Detailed project pa
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-resume">
+      {" "}
+      {/* Set the basename to your repository name */}
       <Routes>
         {/* Home page (project cards) */}
         <Route path="/" element={<Home />} />
