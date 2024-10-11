@@ -1,5 +1,5 @@
 {
-  "homepage": "http://DeAndaBryan.github.io/my-resume",
+  "homepage": "https://DeAndaBryan.github.io/my-resume",
   "name": "my-resume",
   "private": true,
   "version": "0.0.0",
@@ -10,12 +10,12 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^6.26.2",
     "react-tabs": "^6.0.2"
   },
