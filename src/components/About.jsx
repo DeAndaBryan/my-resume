@@ -7,7 +7,7 @@ function About() {
   return (
     <section className="about">
       <img
-        src="src/assets/7D1E58BB-E346-4888-BF43-46D22DBAE450_1_105_c.jpeg"
+        src="images/7D1E58BB-E346-4888-BF43-46D22DBAE450_1_105_c.jpeg?v=1.0"
         alt="Your Name"
         className="about-image"
       />
